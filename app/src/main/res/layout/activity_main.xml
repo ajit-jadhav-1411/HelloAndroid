@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.ajit.helloandroid.MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:src="@drawable/udacity2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Simple and Elegant way to learn"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:text="Udacity"
+        android:padding="10dp"
+        android:textSize="36sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_below="@id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:text="2465 Latham St"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:text="Mountain View, CA 94043"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:text="650-555-5555"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
